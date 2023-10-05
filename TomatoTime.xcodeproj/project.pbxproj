@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFA0B00E2AC5E1A400C4E51D /* StartStopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA0B00D2AC5E1A400C4E51D /* StartStopButton.swift */; };
+		CFA0B0102AC61D3C00C4E51D /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA0B00F2AC61D3C00C4E51D /* ResetButton.swift */; };
+		CFA0B0122AC8DAFD00C4E51D /* tomatoCompletedBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA0B0112AC8DAFD00C4E51D /* tomatoCompletedBubble.swift */; };
+		CFA0B0142AC8DD4D00C4E51D /* tomatoCompletedStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA0B0132AC8DD4D00C4E51D /* tomatoCompletedStack.swift */; };
 		CFAD00752AC3420C003A5D00 /* TomatoTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAD00742AC3420C003A5D00 /* TomatoTimeApp.swift */; };
 		CFAD00772AC3420C003A5D00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAD00762AC3420C003A5D00 /* ContentView.swift */; };
 		CFAD00792AC3420D003A5D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAD00782AC3420D003A5D00 /* Assets.xcassets */; };
 		CFAD007C2AC3420D003A5D00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAD007B2AC3420D003A5D00 /* Preview Assets.xcassets */; };
+		CFAD00832AC34921003A5D00 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAD00822AC34921003A5D00 /* StopwatchView.swift */; };
+		CFC4F0052AC5B88C007A9940 /* ArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC4F0042AC5B88C007A9940 /* ArrowButton.swift */; };
+		CFC4F0072AC5C086007A9940 /* TomatoTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC4F0062AC5C086007A9940 /* TomatoTimeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CFA0B00D2AC5E1A400C4E51D /* StartStopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartStopButton.swift; sourceTree = "<group>"; };
+		CFA0B00F2AC61D3C00C4E51D /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
+		CFA0B0112AC8DAFD00C4E51D /* tomatoCompletedBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatoCompletedBubble.swift; sourceTree = "<group>"; };
+		CFA0B0132AC8DD4D00C4E51D /* tomatoCompletedStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatoCompletedStack.swift; sourceTree = "<group>"; };
 		CFAD00712AC3420C003A5D00 /* TomatoTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomatoTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFAD00742AC3420C003A5D00 /* TomatoTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoTimeApp.swift; sourceTree = "<group>"; };
 		CFAD00762AC3420C003A5D00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFAD00782AC3420D003A5D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFAD007B2AC3420D003A5D00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFAD00822AC34921003A5D00 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+		CFC4F0042AC5B88C007A9940 /* ArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowButton.swift; sourceTree = "<group>"; };
+		CFC4F0062AC5C086007A9940 /* TomatoTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoTimeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF9DBA632ACE15E100AE90AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFC4F0062AC5C086007A9940 /* TomatoTimeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF9DBA642ACE15F200AE90AF /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				CFA0B00D2AC5E1A400C4E51D /* StartStopButton.swift */,
+				CFC4F0042AC5B88C007A9940 /* ArrowButton.swift */,
+				CFA0B00F2AC61D3C00C4E51D /* ResetButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		CF9DBA652ACE160D00AE90AF /* tomatoCompletedView */ = {
+			isa = PBXGroup;
+			children = (
+				CFA0B0112AC8DAFD00C4E51D /* tomatoCompletedBubble.swift */,
+				CFA0B0132AC8DD4D00C4E51D /* tomatoCompletedStack.swift */,
+			);
+			path = tomatoCompletedView;
+			sourceTree = "<group>";
+		};
+		CF9DBA662ACE161D00AE90AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFAD00762AC3420C003A5D00 /* ContentView.swift */,
+				CFAD00822AC34921003A5D00 /* StopwatchView.swift */,
+				CF9DBA652ACE160D00AE90AF /* tomatoCompletedView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CFAD00682AC3420C003A5D00 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				CFAD00742AC3420C003A5D00 /* TomatoTimeApp.swift */,
-				CFAD00762AC3420C003A5D00 /* ContentView.swift */,
-				CFAD00782AC3420D003A5D00 /* Assets.xcassets */,
+				CF9DBA662ACE161D00AE90AF /* Views */,
+				CF9DBA632ACE15E100AE90AF /* Model */,
 				CFAD007A2AC3420D003A5D00 /* Preview Content */,
+				CF9DBA642ACE15F200AE90AF /* Buttons */,
+				CFAD00782AC3420D003A5D00 /* Assets.xcassets */,
 			);
 			path = TomatoTime;
 			sourceTree = "<group>";
@@ -138,7 +191,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFAD00772AC3420C003A5D00 /* ContentView.swift in Sources */,
+				CFC4F0072AC5C086007A9940 /* TomatoTimeModel.swift in Sources */,
 				CFAD00752AC3420C003A5D00 /* TomatoTimeApp.swift in Sources */,
+				CFA0B0142AC8DD4D00C4E51D /* tomatoCompletedStack.swift in Sources */,
+				CFA0B0122AC8DAFD00C4E51D /* tomatoCompletedBubble.swift in Sources */,
+				CFC4F0052AC5B88C007A9940 /* ArrowButton.swift in Sources */,
+				CFA0B0102AC61D3C00C4E51D /* ResetButton.swift in Sources */,
+				CFAD00832AC34921003A5D00 /* StopwatchView.swift in Sources */,
+				CFA0B00E2AC5E1A400C4E51D /* StartStopButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
